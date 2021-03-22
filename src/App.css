@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  padding: 1rem 2rem;
+  background-color: #3b5998;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header select{
+  height: 30px;
+  width: 140px;
+  border-radius: 10px;
+  border: none;
+  outline:none;
+}
+
+
+section{
+  padding: 1rem;
+}
+
+.contents{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contents>div{
+  min-width: 430px;
+  margin: 20px 20px;
+}
